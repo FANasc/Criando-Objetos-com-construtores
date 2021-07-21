@@ -1,10 +1,10 @@
 package one.innovation.digital;
 
 public class Carro {
-    public String marca;
-    public String modelo;
-    public String ano;
-    public String variante;
+    private String marca;
+    private String modelo;
+    private String ano;
+    private String variante;
 
     public Carro(String marca, String modelo, String ano) {
         this.marca = marca;
